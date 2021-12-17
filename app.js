@@ -1,4 +1,6 @@
 var express = require("express");
+const PORT = process.env.PORT || 5000;
+
 // レスポンスのデータ
 const responseObjectData = {
   textObject1 : {
@@ -21,4 +23,4 @@ app.get("/api/objectdata", function(req, res, next) {
 res.json(responseObjectData);
 });
 // ポート3000番でlistenする
-app.listen(3000);
+app.listen(PORT);
