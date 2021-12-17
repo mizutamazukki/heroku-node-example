@@ -1,4 +1,5 @@
 {
   "/api/channels": "/api/channels",
+  "/api/news": "/api/news",
   "/posts": "/api/posts"
 }
