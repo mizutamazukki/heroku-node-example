@@ -1,4 +1,6 @@
 var express = require("express");
+const fs = require('fs');
+
 const PORT = process.env.PORT || 5000;
 
 // レスポンスのデータ
@@ -18,9 +20,9 @@ var app = express();
 app.get("/", (req, res) => {
   res.status(200).send("Express!!");
 });
-app.get("/api/objectdata", function(req, res, next) {
+app.get("/api/news", function(req, res, next) {
   // ここに処理を書く
-res.json(responseObjectData);
+res.json(JSON.parse(fs.readFileSync('./api/news.json', 'utf8')));
 });
 // ポート3000番でlistenする
 app.listen(PORT);
