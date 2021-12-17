@@ -1,0 +1,234 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Denise",
+        "last": "Roberts"
+      },
+      "location": {
+        "street": {
+          "number": 9593,
+          "name": "Taylor St"
+        },
+        "city": "Lubbock",
+        "state": "Virginia",
+        "country": "United States",
+        "postcode": 45540,
+        "coordinates": {
+          "latitude": "87.9352",
+          "longitude": "92.6678"
+        },
+        "timezone": {
+          "offset": "+3:30",
+          "description": "Tehran"
+        }
+      },
+      "email": "denise.roberts@example.com",
+      "login": {
+        "uuid": "4c09fd8e-6fd4-46ed-ba8c-193e2c9cc630",
+        "username": "silverbutterfly611",
+        "password": "kangaroo",
+        "salt": "82rA518O",
+        "md5": "ced4fe91563bf9cca80425fff8ac4b86",
+        "sha1": "90840a8d97942313d88e94a76039ce24e70e3fba",
+        "sha256": "30b856a904ec9d39cdeac750f9ad9b7707ebf4239e23cc5aff18e6ad9e176c17"
+      },
+      "dob": {
+        "date": "1956-09-04T15:15:57.708Z",
+        "age": 65
+      },
+      "registered": {
+        "date": "2018-02-17T15:02:24.395Z",
+        "age": 3
+      },
+      "phone": "(767)-732-0467",
+      "cell": "(530)-504-1360",
+      "id": {
+        "name": "SSN",
+        "value": "672-14-3395"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/17.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/17.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/17.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Taha",
+        "last": "Van Opstal"
+      },
+      "location": {
+        "street": {
+          "number": 1382,
+          "name": "De Groeve"
+        },
+        "city": "Oudenhoorn",
+        "state": "Flevoland",
+        "country": "Netherlands",
+        "postcode": 86117,
+        "coordinates": {
+          "latitude": "-4.5385",
+          "longitude": "52.9347"
+        },
+        "timezone": {
+          "offset": "+4:00",
+          "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+        }
+      },
+      "email": "taha.vanopstal@example.com",
+      "login": {
+        "uuid": "c9618072-5a09-4c43-b45f-9c5ed925a1d8",
+        "username": "heavysnake670",
+        "password": "broken",
+        "salt": "FB2XCvkD",
+        "md5": "751198982494ea2103bb12a9581746c8",
+        "sha1": "e9214651dedb18dea1f5cd526e4fa21d203ae619",
+        "sha256": "02bbc858352f565afde2cf8e6eb84600c3c447e6e2613a23575f980a8dbb7fc7"
+      },
+      "dob": {
+        "date": "1968-09-15T05:51:36.479Z",
+        "age": 53
+      },
+      "registered": {
+        "date": "2011-01-28T20:39:22.210Z",
+        "age": 10
+      },
+      "phone": "(656)-911-9420",
+      "cell": "(774)-040-5251",
+      "id": {
+        "name": "BSN",
+        "value": "24464107"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/34.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/34.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/34.jpg"
+      },
+      "nat": "NL"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Traudel",
+        "last": "Schürer"
+      },
+      "location": {
+        "street": {
+          "number": 6432,
+          "name": "Schulweg"
+        },
+        "city": "Teterow",
+        "state": "Baden-Württemberg",
+        "country": "Germany",
+        "postcode": 95808,
+        "coordinates": {
+          "latitude": "-10.4243",
+          "longitude": "132.8508"
+        },
+        "timezone": {
+          "offset": "-3:00",
+          "description": "Brazil, Buenos Aires, Georgetown"
+        }
+      },
+      "email": "traudel.schurer@example.com",
+      "login": {
+        "uuid": "c752727c-a785-4a8a-a22e-641cb7070948",
+        "username": "blackpanda340",
+        "password": "babyblue",
+        "salt": "1PPJAIe2",
+        "md5": "bbbb5c417e2ff3321a4cb75c9cd8952d",
+        "sha1": "2dc525c584f02d69a49d009b9b4e5c14d046420c",
+        "sha256": "4cd271e79d1aef2ea8c09f1c0ed2509df6e27967181509be15ad2fe359ec7856"
+      },
+      "dob": {
+        "date": "1962-08-09T13:23:31.527Z",
+        "age": 59
+      },
+      "registered": {
+        "date": "2012-10-04T12:44:57.396Z",
+        "age": 9
+      },
+      "phone": "0233-3353045",
+      "cell": "0173-0226538",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/81.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/81.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/81.jpg"
+      },
+      "nat": "DE"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Valerie",
+        "last": "Chavez"
+      },
+      "location": {
+        "street": {
+          "number": 7337,
+          "name": "Mcgowen St"
+        },
+        "city": "Riverside",
+        "state": "Michigan",
+        "country": "United States",
+        "postcode": 53445,
+        "coordinates": {
+          "latitude": "-67.7397",
+          "longitude": "-83.0019"
+        },
+        "timezone": {
+          "offset": "-7:00",
+          "description": "Mountain Time (US & Canada)"
+        }
+      },
+      "email": "valerie.chavez@example.com",
+      "login": {
+        "uuid": "779720c4-9eda-45ad-90fd-aa9681d12b45",
+        "username": "beautifulpeacock992",
+        "password": "babe",
+        "salt": "ccDD3nsx",
+        "md5": "da9dfbd5b729b52b080e9741cbe53f1b",
+        "sha1": "6e9accf557126d95b4da1600e010cbe8322748e5",
+        "sha256": "dc41f1bd99963bc2c86a935d2a5dbf6299311d67531b0825a878d81e938499b1"
+      },
+      "dob": {
+        "date": "1980-08-15T03:50:36.399Z",
+        "age": 41
+      },
+      "registered": {
+        "date": "2009-02-04T15:30:04.310Z",
+        "age": 12
+      },
+      "phone": "(946)-975-1897",
+      "cell": "(322)-040-0573",
+      "id": {
+        "name": "SSN",
+        "value": "010-49-1633"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/17.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/17.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/17.jpg"
+      },
+      "nat": "US"
+    }
+  ],
+  "info": {
+    "seed": "23dd04973883ceee",
+    "results": 4,
+    "page": 1,
+    "version": "1.3"
+  }
+}
