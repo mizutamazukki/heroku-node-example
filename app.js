@@ -11,6 +11,10 @@ app.get("/api/news", function(req, res, next) {
   // ここに処理を書く
 res.json(JSON.parse(fs.readFileSync('./api/news.json', 'utf8')));
 });
+app.get("/api/channels", function(req, res, next) {
+  // ここに処理を書く
+res.json(JSON.parse(fs.readFileSync('./api/channels.json', 'utf8')));
+});
 app.get("/api/result", function(req, res, next) {
   // ここに処理を書く
 res.json(JSON.parse(fs.readFileSync('./api/result.json', 'utf8')));
