@@ -19,5 +19,9 @@ app.get("/api/result", function(req, res, next) {
   // ここに処理を書く
 res.json(JSON.parse(fs.readFileSync('./api/result.json', 'utf8')));
 });
+app.post("/api/test_post", function(req, res, next) {
+  // ここに処理を書く
+res.json(JSON.parse(fs.readFileSync('./api/test_post.json', 'utf8')));
+});
 // ポート3000番でlistenする
 app.listen(PORT);
