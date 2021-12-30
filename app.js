@@ -14,8 +14,8 @@ res.json(JSON.parse(fs.readFileSync('./api/news.json', 'utf8')));
 app.get("/api/channels", function(req, res, next) {
   // ここに処理を書く
   console.log(req.query);
-  if (req.query.page == '1' ) {
-   res.json({});
+  if (req.query.page == '2' ) {
+   res.json([]);
     } else {
    res.json(JSON.parse(fs.readFileSync('./api/channels.json', 'utf8')));
       }
