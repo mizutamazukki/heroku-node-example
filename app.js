@@ -14,8 +14,8 @@ res.json(JSON.parse(fs.readFileSync('./api/news.json', 'utf8')));
 app.get("/api/channels", function(req, res, next) {
   // ここに処理を書く
   console.log(req.query);
-  if (req.query.page == '1' ) {
-   res.json({});
+  if (req.query.page == '2' ) {
+   res.json([]);
     } else {
    res.json(JSON.parse(fs.readFileSync('./api/channels.json', 'utf8')));
       }
@@ -31,6 +31,10 @@ res.json(JSON.parse(fs.readFileSync('./api/test_post.json', 'utf8')));
 app.get("/api/user_views", function(req, res, next) {
   // ここに処理を書く
 res.json(JSON.parse(fs.readFileSync('./api/user_view.json', 'utf8')));
+});
+app.get("/api/favorites", function(req, res, next) {
+  // ここに処理を書く
+res.json(JSON.parse(fs.readFileSync('./api/favorite.json', 'utf8')));
 });
 // ポート3000番でlistenする
 app.listen(PORT);
